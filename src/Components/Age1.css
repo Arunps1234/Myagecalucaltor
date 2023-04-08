@@ -1,0 +1,27 @@
+input{
+    width:300px;
+    height:30px
+}
+
+#one{
+    width:300px;
+    height:30px;
+    background: green;
+    border:none;
+    border-radius: 10px;
+    color:white
+}
+#one:hover{
+    opacity: .8;
+}
+#two{
+    width:100px;
+    height: 30px;
+    border:none;
+    background-color: green;
+    border-radius: 10px;
+}
+select{
+    width:200px;
+    height:30px
+}
