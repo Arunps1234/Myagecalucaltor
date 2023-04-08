@@ -77,7 +77,7 @@ else{
                     <option value="31">31</option>
 
                 </select>
-                &nbsp; &nbsp;
+                
 
 
 
@@ -99,7 +99,7 @@ else{
                     <option value="12">12</option>
                 </select>
 
-                &nbsp; &nbsp;
+                
 
 
 {/*Year*/}
@@ -112,11 +112,10 @@ else{
 }
 </select>
 <br/><br/>
-<div className={clicked ? "clicks" : ""}>
 
-</div>
 
-<button onClick={submits} id="two" disabled={buttonDisable}>Click</button>
+
+<button onClick={submits} id="two" disabled={buttonDisable}>Submit</button>
             </form>
             {
                 showa &&

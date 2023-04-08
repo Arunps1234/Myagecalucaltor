@@ -9,7 +9,7 @@ input{
     background: green;
     border:none;
     border-radius: 10px;
-    color:white
+    color:white;
 }
 #one:hover{
     opacity: .8;
@@ -24,4 +24,31 @@ input{
 select{
     width:200px;
     height:30px
+}
+
+@media only screen and (max-width:792px){
+
+    #Btns{
+        position:relative;
+        top:220px;
+        width:320px;
+        
+}
+ #four, #five{
+        width:270px;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        top:200px;
+        left:-20px;
+        
+
+    }
+    select{
+        margin: 10px;
+    }
+    #two{
+        width:"300px"
+    }
+   
 }

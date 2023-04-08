@@ -6,9 +6,7 @@ import Login from './Components/login';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
 
-  const getusename = (name)=>{
-    console.log(name)
-  }
+  
   
 
 
@@ -20,8 +18,8 @@ function App() {
 
 < BrowserRouter>
 <Routes>
-  <Route path="/" element={<Login/>} getusename={getusename}></Route>
-  <Route path="Home" element={<Age11/>}></Route>
+  <Route path="/" element={<Login/>} ></Route>
+  <Route path="/Home" element={<Age11/>}></Route>
 </Routes>
 </BrowserRouter>
 
